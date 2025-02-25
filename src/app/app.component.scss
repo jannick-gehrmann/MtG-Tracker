@@ -1,0 +1,10 @@
+// Color Variables
+$font-family: 'Georgia', serif;
+
+/* App Container */
+.app-container {
+  font-family: $font-family;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

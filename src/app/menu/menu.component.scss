@@ -1,0 +1,85 @@
+// Color Variables
+$primary-color: #d4af37; // Gold
+$background-color: #333; // Dark Grey
+$text-color: #f1c40f; // Bright Gold
+$hover-bg-color: #d4af37; // Gold Hover
+$hover-text-color: #1a1a1a; // Dark text on hover
+$shadow-color: rgba(0, 0, 0, 0.4);
+
+/* Menu Container */
+.menu-container {
+  background: $background-color;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid $primary-color;
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 4px 4px 15px $shadow-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Header */
+  h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: $text-color;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  /* Menu Buttons */
+  .menu-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 20px;
+    justify-content: center;
+
+    .menu-button {
+      padding: 12px 18px;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: capitalize;
+      border: 2px solid $primary-color;
+      background-color: transparent;
+      color: $text-color;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-radius: 6px;
+      text-align: center;
+      display: inline-block;
+      min-width: 150px;
+
+      &:hover {
+        background-color: $hover-bg-color;
+        color: $hover-text-color;
+      }
+    }
+  }
+
+  /* External Links */
+  .menu-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+
+    .menu-link {
+      font-size: 14px;
+      color: $text-color;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      padding: 5px;
+      border-bottom: 1px solid transparent;
+
+      &:hover {
+        color: white;
+        border-bottom: 1px solid $primary-color;
+      }
+    }
+  }
+}
