@@ -11,8 +11,15 @@ An interactive **Magic: The Gathering** type tracker built with **Angular**.
 
 ## 📦 Installation
 
-```bash
+```
 git clone https://github.com/your-repo/mtg-type-tracker.git
+```
+```
 cd mtg-type-tracker
+```
+```
 npm install
+```
+```
 ng serve
+```
