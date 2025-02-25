@@ -1,0 +1,78 @@
+/* Container */
+.tracker-container {
+  background: #333;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #d4af37;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Header */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+/* Edit Mode Button */
+.edit-mode {
+  background-color: #d4af37;
+  color: black;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+/* Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border: 2px solid #d4af37;
+  background-color: transparent;
+  color: #d4af37;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #d4af37;
+  color: black;
+}
+
+button.active {
+  background-color: #d4af37;
+  color: black;
+  border: 2px solid black;
+}
+
+/* Stats */
+.stats {
+  font-size: 18px;
+  font-weight: bold;
+  background: transparent;
+  color: #d4af37;
+  padding: 10px;
+  border-radius: 6px;
+  display: inline-block;
+  border: 2px solid #d4af37;
+}

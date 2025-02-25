@@ -1,0 +1,19 @@
+<div class="tracker-container">
+  <h1>Type Tracker</h1>
+
+  <div class="grid">
+    <button [class.active]="artifact" (click)="artifact = !artifact">artifact</button>
+    <button [class.active]="creature" (click)="creature = !creature">creature</button>
+    <button [class.active]="battle" (click)="battle = !battle">battle</button>
+    <button [class.active]="enchantment" (click)="enchantment = !enchantment">enchantment</button>
+    <button [class.active]="instant" (click)="instant = !instant">instant</button>
+    <button [class.active]="sorcery" (click)="sorcery = !sorcery">sorcery</button>
+    <button [class.active]="land" (click)="land = !land">land</button>
+    <button [class.active]="kindred" (click)="kindred = !kindred">kindred</button>
+    <button [class.active]="planeswalker" (click)="planeswalker = !planeswalker">planeswalker</button>
+  </div>
+
+  <div class="stats">
+    <strong>Power: {{ power }} / Toughness: {{ toughness }}</strong>
+  </div>
+</div>
