@@ -1,13 +1,12 @@
-# MTG Type Tracker
+# MTG Tracker
 
 An interactive **Magic: The Gathering** type tracker built with **Angular**.
 
 ## 🚀 Features
 
-- **MTG card types as buttons**
-- **Dynamic Power/Toughness calculation**
+- **Life Calculator for up to 4 player**
+- **Dynamic Power/Toughness calculation for Lhurgoyfs**
 - **Modern dark-themed UI with gold accents**
-- **Responsive and mobile-friendly**
 
 ## 📦 Installation
 
