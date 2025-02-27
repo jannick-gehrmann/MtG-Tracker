@@ -3,12 +3,18 @@
 
   <div class="grid">
     <button [class.active]="artifact" (click)="artifact = !artifact">artifact</button>
-    <button [class.active]="creature" (click)="creature = !creature">creature</button>
+    <div class="counter-div">
+      <button class="counter-button" [class.active]="creature" (click)="creature = !creature">creature</button>
+      <input class="counter" type="number" min="0">
+    </div>
     <button [class.active]="battle" (click)="battle = !battle">battle</button>
     <button [class.active]="enchantment" (click)="enchantment = !enchantment">enchantment</button>
     <button [class.active]="instant" (click)="instant = !instant">instant</button>
     <button [class.active]="sorcery" (click)="sorcery = !sorcery">sorcery</button>
-    <button [class.active]="land" (click)="land = !land">land</button>
+    <div class="counter-div">
+      <button class="counter-button" [class.active]="land" (click)="land = !land">land</button>
+      <input class="counter" type="number" min="0">
+    </div>
     <button [class.active]="kindred" (click)="kindred = !kindred">kindred</button>
     <button [class.active]="planeswalker" (click)="planeswalker = !planeswalker">planeswalker</button>
   </div>

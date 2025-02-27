@@ -16,6 +16,11 @@ export class TypeTrackerComponent {
   kindred = false;
   planeswalker = false;
 
+  // Counters for land and creature
+  creatureCount = 0;
+  landCount = 0;
+
+
   get activeCount(): number {
     return [
       this.artifact, this.creature, this.battle, this.enchantment,
@@ -30,4 +35,23 @@ export class TypeTrackerComponent {
   get toughness(): number {
     return 1 + this.activeCount;
   }
+
+  toggleCreature() {
+    this.creature = !this.creature;
+    if (this.creature) {
+      this.creatureCount++;
+    } else {
+      this.creatureCount = this.creatureCount > 0 ? this.creatureCount - 1 : 0;
+    }
+  }
+
+  toggleLand() {
+    this.land = !this.land;
+    if (this.land) {
+      this.landCount++;
+    } else {
+      this.landCount = this.landCount > 0 ? this.landCount - 1 : 0;
+    }
+  }
+
 }
