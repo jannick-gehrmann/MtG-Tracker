@@ -4,7 +4,7 @@ An interactive **Magic: The Gathering** type tracker built with **Angular**.
 
 ## 🚀 Features
 
-- **Life Calculator for up to 4 player**
+- **Life Calculator for up to 4 player** (work in progress)
 - **Dynamic Power/Toughness calculation for Lhurgoyfs**
 - **Modern dark-themed UI with gold accents**
 
